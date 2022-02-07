@@ -20,6 +20,7 @@ The implementation of the vectorized  L-layer Deep Learning network in Python, R
 4. The closeset equivalent of Python's dictionary, or R's list, in  Octave is the cell array. However I had to manage separate cell arrays for weights and biases and during gradient descent and separate gradients dW and dB.
 
 5. In Python the rank-1 numpy arrays can be annoying at times. This issue is not present in R and Octave.
+6. The train-images.idx3-ubyte file is attached as train-images.ZIP file.
 
 Though the number of lines of code for Deep Learning functions in Python, R and Octave are about ~350 apiece, they have been some of the most difficult code I implemented. The current vectorized implementation supports the relu, sigmoid and tanh activation functions as of now. I will be adding other activation functions like the 'leaky relu', 'softmax' and others, to the implementation in the weeks to come.
 
